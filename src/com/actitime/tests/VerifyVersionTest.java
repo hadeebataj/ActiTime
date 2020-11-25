@@ -25,7 +25,7 @@ public class VerifyVersionTest extends BaseTest {
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals(aVersion, eVersion);
 		Reporter.log("Both versions are matching...", true);
-		sa.assertAll();
+		sa.assertAll()
 	}
 	
 
